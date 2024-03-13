@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
 import sklearn
 from sklearn.model_selection import train_test_split
@@ -11,7 +12,7 @@ from sklearn.metrics import classification_report, roc_curve, auc, confusion_mat
 from sklearn.ensemble import RandomForestClassifier 
 
 # ---- Archivo y Preprocesamiento ----
-train = pd.read_csv("C:/Users/campo/OneDrive/Desktop/data/contenidos/modulo 2/modulo tres/train_ctrUa4K.csv")
+train = pd.read_csv("train_ctrUa4K.csv")
 train["Is_female"] = train["Gender"].map({"Male":0, "Female":1})
 train["Is_married"] = train["Married"].map({"No":0, "Yes":1})
 train["Loan_Status"] = train["Loan_Status"].map({"N":0, "Y":1})
