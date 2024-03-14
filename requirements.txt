@@ -3,5 +3,6 @@ pandas
 numpy 
 seaborn 
 matplotlib
+altair
 os
 sklearn
