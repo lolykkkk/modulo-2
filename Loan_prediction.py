@@ -67,5 +67,3 @@ if st.button("¿Obtendrás tu préstamo?"):
         st.success("¡Tu préstamo ha sido concedido!")
     else:
         st.success("¡Prueba otra vez el próximo año!")
-
-
