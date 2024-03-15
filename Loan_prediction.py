@@ -57,7 +57,7 @@ def prediction(Is_female, Is_married, ApplicantIncome, LoanAmount, Credit_Histor
 Is_female = st.selectbox("Género", ("M", "F"))
 Is_married = st.selectbox("Estado Civil", ("Casado/a", "Soltero/a"))
 ApplicantIncome = st.number_input("Tu salario")
-LoanAmount = st.number_input("Valor de tú préstamo")
+LoanAmount = st.number_input("Valor de tu préstamo")
 Credit_History = st.selectbox("Deudas", ("Sí", "No"))
 
 # Botón de predicción
